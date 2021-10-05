@@ -1,0 +1,42 @@
+Quizz Cybersécurité
+
+1.d
+
+2.usurpation d'identité / harcelement, difflamation
+
+3. Disponibilité, intégrité, confidentialité
+
+4.b, d
+
+5.a
+
+6.b
+
+7.b
+
+8.b
+
+9.c
+
+10.b, d
+
+11.a, c, d
+
+12.a, b, d
+
+13.partage réseaux ouvert, USB(support amovible), les mises a jour logiciel, site web malveillant ...
+
+14.un réseau d'ordinateur infecté 
+
+15.b
+
+16.b
+
+17.b
+
+18.c
+
+19.num secu, nom prénom, date naissance, lieu de naissance, num code bancaire ...
+
+20.c
+
