@@ -6,6 +6,6 @@
 6. non 0 1
 7. non 1 et 1 seule
 8. non 1 ou +
-9. oui plusieurs batiments
+9. oui ce n'est pas une clé primaire (point tillet numSalle)
 10. oui
 11. Cela voudrai dire que le laboratoire distribue 0 ou 1 medicament et pas plus 

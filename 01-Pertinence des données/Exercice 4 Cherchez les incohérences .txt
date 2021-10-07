@@ -1,6 +1,6 @@
 Chercheur : 
-anneeNaissance n'apparait pas dans le shéma
-codelabo apparait comme FK mais d'après le shéma le codeLabo ne rentre pas dans Chercheur mais dans la table associative. o,n / o,n (problème de cardinalité)
+anneeNaissance n'apparait pas dans le shéma // prenom different penom
+codelabo apparait comme FK mais d'après le shéma le codeLabo ne rentre pas dans Chercheur mais dans la table associative. o,n / o,n (problème de cardinalité) mettre 1,1
 Par contre, sigleEq et idOrga devrait apparaite en FK
 
 Laboratoire :
@@ -11,6 +11,9 @@ Mission :
 dateRetour différent de dateArrivée
 #paysDepart, #paysArrivée n'existe pas dans le shémas (Nom de l'association et pas un attribut)
 il y a deux relations au même endroit qui ont les même cardianalités, ce qui sert à rien
+
+Pays : 
+clé primaire ?
 
 EstMembre : 
 D'après le shéma, la table EstMembre ne doit pas exister (cardinalité 1,1 0,n), ce n'est pas une table associative, de plus Laboratoire n'est pas rattaché a EstMembre donc pas de relation ternaire
