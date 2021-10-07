@@ -1,0 +1,11 @@
+1. oui 0 ou plusieurs
+2. non 1 et 1 seul
+3. oui 0 ou plusieurs
+4. oui 0 ou plusieurs
+5. non 1 et 1 seul
+6. non 0 1
+7. non 1 et 1 seule
+8. non 1 ou +
+9. oui plusieurs batiments
+10. oui
+11. Cela voudrai dire que le laboratoire distribue 0 ou 1 medicament et pas plus 
