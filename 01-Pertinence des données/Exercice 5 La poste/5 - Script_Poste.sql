@@ -75,11 +75,11 @@ CREATE TABLE Gestions(
    dateReception DATE
 )ENGINE=InnoDB;
 
-ALTER TABLE Courriers ADD CONSTRAINT FK_Courriers_Types FOREIGN KEY(idType) REFERENCES Types(idType),
+ALTER TABLE Courriers ADD CONSTRAINT FK_Courriers_Types FOREIGN KEY(idType) REFERENCES Types(idType);
 ALTER TABLE Acheminements 
 ADD CONSTRAINT FK_Acheminements_Bureaux FOREIGN KEY(idBureau) REFERENCES Bureaux(idBureau),
 ADD CONSTRAINT FK_Acheminements_Transports FOREIGN KEY(idTransport) REFERENCES Transports(idTransport),
-ADD CONSTRAINT FK_Acheminements_CentresDeTri FOREIGN KEY(idCentresDeTri) REFERENCES CentresDeTri(idCentresDeTri),
+ADD CONSTRAINT FK_Acheminements_CentresDeTri FOREIGN KEY(idCentresDeTri) REFERENCES CentresDeTri(idCentresDeTri);
 ALTER TABLE Gestions 
 ADD CONSTRAINT FK_Gestions_Bureaux FOREIGN KEY(idBureau) REFERENCES Bureaux(idBureau),
 ADD CONSTRAINT FK_Gestions_Courriers FOREIGN KEY(idCourrier) REFERENCES Courriers(idCourrier);
